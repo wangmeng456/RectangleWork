@@ -1,4 +1,4 @@
-/* global Rectangle, validate, isLegalKey: true */
+/* global Rectangle, validate, isLegalKey, $forkMeGH: true */
 $(function() {
   var $width = $('#width'),
       $height = $('#height'),
@@ -8,6 +8,9 @@ $(function() {
       $widthValidate = $('#width-validate'),
       $heightValidate = $('#height-validate'),
       isPassValidate = false;
+
+  $forkMeGH.show('https://github.com/wangmeng456/RectangleWork');
+  $bszPageFooter.show('body');
 
   $width.focusout(function() {
     var result = validate($width.val());
