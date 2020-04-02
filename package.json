@@ -2,7 +2,7 @@
   "name": "RectangleWork",
   "version": "1.0.0",
   "description": "矩形计算器",
-  "main": "index.js",
+  "main": "rectangle.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0"
   },
@@ -19,12 +19,16 @@
   "homepage": "https://github.com/wangmeng456/RectangleWork#readme",
   "devDependencies": {
     "grunt": "^1.1.0",
+    "grunt-contrib-clean": "^2.0.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-csslint": "^2.0.0",
     "grunt-contrib-cssmin": "^3.0.0",
     "grunt-contrib-htmlmin": "^3.1.0",
     "grunt-contrib-uglify": "^4.0.1",
     "grunt-eslint": "^22.0.0",
     "grunt-htmlhint": "^0.9.13",
-    "grunt-mocha": "^1.2.0"
+    "grunt-mocha": "^1.2.0",
+    "grunt-usemin": "^3.1.1"
   }
 }
